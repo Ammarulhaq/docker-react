@@ -7,3 +7,10 @@ before_install:
 
 scripts:
   - docker run testing001 npm run test -- --coverage
+
+deploy:
+  provider: heroku
+  api_key: 2e3d6b2a-2cba-4b7d-90ef-08791ea6ebdf
+  app: firstdockerapp001
+  on:
+    repo: Ammarulhaq/docker-react
