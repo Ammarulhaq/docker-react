@@ -14,4 +14,4 @@ deploy:
     secure: 
   app: firstdockerapp001
   on:
-    repo:  Ammarulhaq/docker-react
+    repo: Ammarulhaq/docker-react
